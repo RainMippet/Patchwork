@@ -1,0 +1,70 @@
+body {
+	background-image: url("pat.png");
+	background-repeat: repeat;
+	display: flex;
+	flex-direction: column; 
+	align-items : center;
+}
+.logo {
+	width: 50%;
+	height: auto;
+}
+form {
+	background-color: #c4c4c4;
+	border:solid 2px #006600;
+	border-radius:1em;
+	margin: 1% 0;
+	width: 76%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+label {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 0 2%;
+}
+input {
+	margin: 1%;
+}
+.main {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.sidebar {
+	display:flex;
+	flex-direction: column;
+	background-color: #c4c4c4;
+	border:solid 2px #006600;
+	border-radius:1em;
+	width: 15%;
+	align-items: center;
+	margin: 0 1% 0 0;
+}
+.icon {
+	width: 90%;
+	height: auto;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: #c4c4c4;
+	border: solid 2px #006600;
+	border-radius:1em;
+	align-items: center;
+	width: 60%;
+	height: auto;
+}
+.placeholder {
+	margin: 1% 1%;
+	width: 90%;
+	height: auto;
+}
+.title {
+	font-size: 30px;
+}
+.post {
+	margin: 2%
+}
