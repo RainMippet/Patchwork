@@ -1,0 +1,13 @@
+background {
+  background-image: url("pat.png");
+  background-repeat: repeat-y;
+  
+}
+
+logo {
+	image : url("logo.png")
+	width: 70%;
+	height: auto:
+	align-items: center;
+}
+
